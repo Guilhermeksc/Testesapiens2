@@ -35,4 +35,11 @@ class HelloController
             '<html><body>Teste index Hello World!</body></html>'
         );
     }
+    #[Route('/futuro')]
+    public function futuro(): Response
+    {
+        return new Response(
+            '<html><body>Rota do futuro!</body></html>'
+        );
+    }
 }
