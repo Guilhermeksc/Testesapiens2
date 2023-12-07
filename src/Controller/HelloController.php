@@ -28,8 +28,8 @@ class HelloController
             '<html><body>Teste index Hello World!</body></html>'
         );
     }
-    #[Route('//insetos')]
-    public function insetos(): Response
+    #[Route('/bananas')]
+    public function bananas(): Response
     {
         return new Response(
             '<html><body>Teste index Hello World!</body></html>'
