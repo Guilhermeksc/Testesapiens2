@@ -28,4 +28,11 @@ class HelloController
             '<html><body>Teste index Hello World!</body></html>'
         );
     }
+    #[Route('//insetos')]
+    public function insetos(): Response
+    {
+        return new Response(
+            '<html><body>Teste index Hello World!</body></html>'
+        );
+    }
 }
